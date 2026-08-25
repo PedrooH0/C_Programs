@@ -4,21 +4,25 @@
 int main(){
 
   unsigned char ch;
+  unsigned short int rd;
   do{
     printf("Selecione uma das seguintes opções:\n1. Ocupar armário\n2. Liberar armário\n3. Sair\n");
     scanf("%hhu",&ch);
-    //printf("%hhu\n",ch);
 
     switch (ch)
     {
     case 1:
       puts("você está no 1");
-      ch=0;
+      //ch=0;
+
+      rd = rand() % 8;
+      printf("%hu\n\n",rd);
+
       break;
 
     case 2:
-      puts("você está no 2");
-      ch=0;
+      puts("você está no 2\n");
+      //ch=0;
       break;
 
     case 3:
