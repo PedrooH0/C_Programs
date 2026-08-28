@@ -10,4 +10,6 @@ int main(){
   printf("\nValor original: %hu\n",val);
   printf("\nValor em Hexadecimal: %x\n",val);
   printf("\nValor em Octal: %o\n",val);
+
+  return 0;
 }
