@@ -2,18 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-
-
 void conversor_binario(unsigned short int num){
   for(int j = 7; j>=0; j--){
     printf("%d",(num >> j) & 1);
   }
   puts("\n");
 }
-
-
-
 
 int main(){
 
