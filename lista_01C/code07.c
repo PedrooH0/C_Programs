@@ -5,4 +5,6 @@ int main(){
     puts("Digite um número:");
     scanf("%d",&num);
     printf("%d elevado ao quadrado é\n: %d",num,(num*num));
+
+    return 0;
 }
