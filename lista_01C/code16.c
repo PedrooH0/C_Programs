@@ -10,4 +10,6 @@ int main(){
   mod = abs(num);
 
   printf("O módulo de %d é: %d\n",num,mod);
+
+  return 0;
 }
